@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# Playwright_TS_Framework
-basic framework includes some example modules and scripts to start any automation
-=======
+
 # Playwright Framework Starter
 
 This is a setup for a Playwright test automation framework using TypeScript.
@@ -40,4 +37,4 @@ Pre-commit or Pre-push Scripts:
 
 "precommit": "npm run lint && npm run test": Runs linting and tests before each commit (requires additional setup with tools like Husky).
 "prepush": "npm run lint && npm run build && npm run test": Similar to precommit, but includes a build step and is run before pushing to a repository.
->>>>>>> master
+
