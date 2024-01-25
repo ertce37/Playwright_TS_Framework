@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": ["es6", "dom"],
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "rootDir": "./src",     // Adjust as per your source files location
+    "outDir": "./dist",     // Adjust as per your preferred output directory
+    "moduleResolution": "node"
+  },
+  "include": ["src/tests/**/*"],
+  "exclude": ["node_modules"]
+}

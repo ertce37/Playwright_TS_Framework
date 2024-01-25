@@ -1,0 +1,27 @@
+{
+  "name": "playwright-framework",
+  "version": "1.0.0",
+  "description": "A Playwright test automation framework with TypeScript",
+  "scripts": {
+    "test": "playwright test",
+    "test:debug": "PWDEBUG=1 playwright test",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "clean": "rm -rf dist/",
+    "precommit": "npm run lint && npm run test",
+    "prepush": "npm run lint && npm run build && npm run test"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "typescript": "latest",
+    "eslint": "latest",
+    "prettier": "latest",
+    "@types/playwright": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "source-map-support": "latest"
+  }
+}
