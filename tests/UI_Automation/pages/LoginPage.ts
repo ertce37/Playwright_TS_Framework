@@ -17,9 +17,9 @@ export class LoginPage{
 async goto() {
     await this.page.goto(pkg.baseUrl);
   }
-async signIn(){
-    await this.usernameTxt.fill('cgrbtl8991@gmail.com')
-    await this.passwordTxt.fill('Ertce82@')
+async signIn(username: string , password: string){
+    await this.usernameTxt.fill(username)
+    await this.passwordTxt.fill(password)
     //await this.signInBtn.click();
     await this.page.keyboard.press('Enter')
 }
