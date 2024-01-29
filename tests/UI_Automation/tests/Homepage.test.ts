@@ -1,7 +1,7 @@
 import {test, expect} from '@playwright/test';
 
 // import package.json 
-const pkg = require("../../../package.json");
+import pkg from "../../../package.json";
 
 test('test', async ({page}) => {
   await page.goto(pkg.baseUrl);
