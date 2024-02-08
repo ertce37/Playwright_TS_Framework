@@ -8,7 +8,7 @@
   },
   "baseUrl": "https://test.alpidi.com/",
   "devDependencies": {
-    "@playwright/test": "^1.41.1",
+    "@playwright/test": "^1.41.2",
     "@types/node": "^20.11.10",
     "eslint": "^7.0.0",
     "prettier": "^2.0.0",

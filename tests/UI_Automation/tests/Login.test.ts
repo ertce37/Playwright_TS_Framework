@@ -23,5 +23,5 @@ test("verify left bar tab names",async({page})=>{
 
     await page.waitForTimeout(3000)
    
-    expect(await barMenus.allInnerTexts()).toEqual(barMenuNames)
+    expect(await barMenus.allTextContents).toEqual(barMenuNames)
 })
